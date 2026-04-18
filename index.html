@@ -1,303 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <!-- CSS -->
-        <link rel="stylesheet" href="style.css">
-        
-        <!-- Boxicons -->
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        
-        <title>Developer Arvind Sharma</title>
-        <meta name="description" content="I am a Front-End Developer driven by a deep passion for UI effects, animations, and the creation of intuitive, dynamic user experiences.">
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-        
-        <!-- jQuery and Bootstrap CSS for Modals -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">ARVIND</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Developer Arvind Sharma</title>
+    <meta name="description"
+        content="I am a Front-End Developer driven by a deep passion for UI effects, animations, and the creation of intuitive, dynamic user experiences.">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <!-- jQuery and Bootstrap CSS for Modals -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Anshu</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#achivement" class="nav__link">Achievements</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Anshu</span><br>Web Developer</h1>
+
+                <a href="#contact" class="button contact-btn">Contact</a>
+                <a href="https://drive.google.com/file/d/10KAHCn34_8zKYrlLQGhCbUrXXnAapPS6/view" target="_blank"
+                    class="button"
+                    style="background-color: transparent; color: var(--second-color); border: 1px solid var(--second-color);">Resume</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/Anshu-sharma-10a9091b2/" target="_blank"
+                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/Anshu_sharma_95/" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Anshu95" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+                <a href="skype:live:.cid.6b7f9f0f9f3f9f3f?chat" class="home__social-icon"><i
+                        class='bx bxl-skype'></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/arvind-1.jpeg" alt="Anshu" class="home__full-img">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about-1.jpeg" alt="About Arvind">
                 </div>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#achivement" class="nav__link">Achievements</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <div>
+                    <h2 class="about__subtitle">I'am Arvind</h2>
+                    <p class="about__text">As a Front-End Developer, I am driven by a deep passion for UI effects,
+                        animations, and the creation of intuitive, dynamic user experiences. My expertise enables me to
+                        develop digital products for a diverse clientele, both nationally and internationally. Clients
+                        rely on me for comprehensive services, encompassing the design, implementation, and management
+                        of their digital products. My commitment to staying updated with the latest industry trends
+                        ensures that I deliver cutting-edge solutions tailored to each client's unique needs.</p>
+                    <p class="about__text" style="margin-top: 1rem;">As an independent professional, I collaborate with
+                        web agencies, companies, startups, and individuals to devise strategic blueprints for their
+                        digital endeavors. Additionally, I offer guidance and partnership support to various digital and
+                        Fintech startups, ensuring their projects are executed with precision and creativity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EDUCATION =====-->
+        <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+
+            <div class="edu__container bd-grid">
+                <div class="row sec-pd border mt-2 edu">
+                    <div class="col-md-2 logo-center">
+                        <img src="assets/img/aktu.png" alt="AKTU" style="width: 80px;">
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Master of Computer Applications</h3>
+                        <h4>A.P.J. Abdul Kalam Technical University, Lucknow</h4>
+                        <p>Master of Computer Applications from A.P.J. Abdul Kalam Technical University, Lucknow in
+                            2023.</p>
+                    </div>
+                </div>
+
+                <div class="row sec-pd border mt-4 edu">
+                    <div class="col-md-2 logo-center">
+                        <img src="assets/img/ccs.png" alt="CCSU" style="width: 80px;">
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Bachelors's in Computer Application</h3>
+                        <h4>Chaudhary Charan Singh University, Meerut</h4>
+                        <p>Bachelors's in Computer Application from Chaudhary Charan Singh University, Meerut in 2021.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row sec-pd border mt-4 edu">
+                    <div class="col-md-2 logo-center">
+                        <img src="assets/img/bseb.png" alt="BSEB" style="width: 80px;">
+                    </div>
+                    <div class="col-md-10">
+                        <h3>Intermediate</h3>
+                        <h4>Bihar School Examination Board, Patna</h4>
+                        <p>Intermediate Bihar School Examination Board, Patna in 2018. form science stream.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Professional Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">I specialize in crafting highly effective responsive websites distinguished
+                        by their speed, user-friendly interfaces, and adherence to industry best practices. My primary
+                        expertise lies in front-end development, encompassing proficiency in HTML, CSS, and JavaScript.
+                        I excel in constructing web applications, creating custom plugins, implementing innovative
+                        features, designing animations, and coding interactive layouts.</p>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML5</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS3</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                        <div>
+                            <span class="skills__percentage">65%</span>
+                        </div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-bootstrap skills__icon'></i>
+                            <span class="skills__name">BOOTSTRAP</span>
+                        </div>
+                        <div class="skills__bar skills__bootstrap"></div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/work3.jpg" alt="Skills" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== ACHIEVEMENTS =====-->
+        <section class="achivement section" id="achivement">
+            <h2 class="section-title">Achievements</h2>
+
+            <div class="achievements__container bd-grid">
+                <div class="achhivemet-sec">
+                    <h3><span class="clr-blue">Employee Of The Year Award</span> 2024-25</h3>
+                    <div class="about__img">
+                        <img src="assets/img/arvind-2025.jpg" alt="Award 2025">
+                    </div>
+                </div>
+
+                <div class="achhivemet-sec mt-5">
+                    <h3><span class="clr-blue">Stand Out Performer Award</span> 2022-23</h3>
+                    <div class="about__img">
+                        <img src="assets/img/certificate-1.jpg" alt="Award 2023">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <a href="https://tecmint.org/" target="_blank" class="work__img">
+                    <img src="assets/img/work1.jpg" alt="Work 1">
+                </a>
+                <a href="https://www.drjyotiupadhyay.com/" target="_blank" class="work__img">
+                    <img src="assets/img/work2.jpg" alt="Work 2">
+                </a>
+                <a href="https://bbcacademy.in/" target="_blank" class="work__img">
+                    <img src="assets/img/work3.jpg" alt="Work 3">
+                </a>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="#" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="contact__input"></textarea>
+                    <input type="submit" value="Enter" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Arvind</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Arvind. 2025 All rights reserved.</p>
+    </footer>
+
+    <!-- WhatsApp Widget -->
+    <div class="whatsappWidget">
+        <a href="https://api.whatsapp.com/send?phone=916203354037&text=Hello%20Arvind,%20I%20saw%20your%20portfolio%20and%20I'd%20like%20to%20talk."
+            target="_blank">
+            <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
+        </a>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal-container" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content pop-up">
+                <div class="profile-card">
+                    <div class="pro-header">
+                        <a href="#"><img src="assets/img/profile-img.jpg" alt="Arvind"></a>
+                        <h1>Arvind Kumar Sharma</h1>
+                        <h2>Web Developer</h2>
+                    </div>
+                    <div class="profile-bio">
+                        <p>As a Front-End Developer, I am driven by a deep passion for UI effects, animations, and the
+                            creation of intuitive, dynamic user experiences.</p>
+                    </div>
+                    <ul class="profile-social-links">
+                        <li><a href="https://www.linkedin.com/in/arvind-sharma-10a9091b2/" target="_blank"><img
+                                    src="assets/img/linkedin.png"></a></li>
+                        <li><a href="https://www.instagram.com/arvind_sharma_95/" target="_blank"><img
+                                    src="assets/img/instagram.png"></a></li>
+                        <li><a href="https://github.com/Arvind-95" target="_blank"><img src="assets/img/github.png"></a>
+                        </li>
                     </ul>
                 </div>
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Arvind</span><br>Web Developer</h1>
-
-                    <a href="#contact" class="button contact-btn">Contact</a>
-                    <a href="https://drive.google.com/file/d/10KAHCn34_8zKYrlLQGhCbUrXXnAapPS6/view" target="_blank" class="button" style="background-color: transparent; color: var(--second-color); border: 1px solid var(--second-color);">Resume</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/arvind-sharma-10a9091b2/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://www.instagram.com/arvind_sharma_95/" target="_blank" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
-                    <a href="https://github.com/Arvind-95" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                    <a href="skype:live:.cid.6b7f9f0f9f3f9f3f?chat" class="home__social-icon"><i class='bx bxl-skype' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M9.19024 145.964C12.6181 37.0873 90.71 4.35693 204.205 0.352495C317.7 3.6475 391.705 38.6521 426.205 142.152C460.705 245.652 479 313.152 479 313.152L312.618 467H53.1902C53.1902 467 1.19025 313.652 0.190247 217.152C-0.809753 120.652 5.76239 254.841 9.19024 145.964Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M9.19024 145.964C12.6181 37.0873 90.71 4.35693 204.205 0.352495C317.7 3.6475 391.705 38.6521 426.205 142.152C460.705 245.652 479 313.152 479 313.152L312.618 467H53.1902C53.1902 467 1.19025 313.652 0.190247 217.152C-0.809753 120.652 5.76239 254.841 9.19024 145.964Z" fill="#3e6ff4"/>
-                            <image class="home__blob-img" x="0" y="0" xlink:href="assets/img/arvind-1.jpeg" width="479" height="467" preserveAspectRatio="xMidYMid slice"/>
-                        </g>
-                    </svg>
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section" id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about-1.jpeg" alt="About Arvind">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Arvind</h2>
-                        <p class="about__text">As a Front-End Developer, I am driven by a deep passion for UI effects, animations, and the creation of intuitive, dynamic user experiences. My expertise enables me to develop digital products for a diverse clientele, both nationally and internationally. Clients rely on me for comprehensive services, encompassing the design, implementation, and management of their digital products. My commitment to staying updated with the latest industry trends ensures that I deliver cutting-edge solutions tailored to each client's unique needs.</p>
-                        <p class="about__text" style="margin-top: 1rem;">As an independent professional, I collaborate with web agencies, companies, startups, and individuals to devise strategic blueprints for their digital endeavors. Additionally, I offer guidance and partnership support to various digital and Fintech startups, ensuring their projects are executed with precision and creativity.</p>
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== EDUCATION =====-->
-            <section class="education section" id="education">
-                <h2 class="section-title">Education</h2>
-
-                <div class="edu__container bd-grid">
-                    <div class="row sec-pd border mt-2 edu">
-                        <div class="col-md-2 logo-center">
-                            <img src="assets/img/aktu.png" alt="AKTU" style="width: 80px;">
-                        </div>
-                        <div class="col-md-10">
-                            <h3>Master of Computer Applications</h3>
-                            <h4>A.P.J. Abdul Kalam Technical University, Lucknow</h4>
-                            <p>Master of Computer Applications from A.P.J. Abdul Kalam Technical University, Lucknow in 2023.</p>
-                        </div>
-                    </div>
-
-                    <div class="row sec-pd border mt-4 edu">
-                        <div class="col-md-2 logo-center">
-                            <img src="assets/img/ccs.png" alt="CCSU" style="width: 80px;">
-                        </div>
-                        <div class="col-md-10">
-                            <h3>Bachelors's in Computer Application</h3>
-                            <h4>Chaudhary Charan Singh University, Meerut</h4>
-                            <p>Bachelors's in Computer Application from Chaudhary Charan Singh University, Meerut in 2021.</p>
-                        </div>
-                    </div>
-
-                    <div class="row sec-pd border mt-4 edu">
-                        <div class="col-md-2 logo-center">
-                            <img src="assets/img/bseb.png" alt="BSEB" style="width: 80px;">
-                        </div>
-                        <div class="col-md-10">
-                            <h3>Intermediate</h3>
-                            <h4>Bihar School Examination Board, Patna</h4>
-                            <p>Intermediate Bihar School Examination Board, Patna in 2018. form science stream.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Professional Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <h2 class="skills__subtitle">Professional Skills</h2>
-                        <p class="skills__text">I specialize in crafting highly effective responsive websites distinguished by their speed, user-friendly interfaces, and adherence to industry best practices. My primary expertise lies in front-end development, encompassing proficiency in HTML, CSS, and JavaScript. I excel in constructing web applications, creating custom plugins, implementing innovative features, designing animations, and coding interactive layouts.</p>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-html5 skills__icon'></i>
-                                <span class="skills__name">HTML5</span>
-                            </div>
-                            <div class="skills__bar skills__html"></div>
-                            <div>
-                                <span class="skills__percentage">80%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon'></i>
-                                <span class="skills__name">CSS3</span>
-                            </div>
-                            <div class="skills__bar skills__css"></div>
-                            <div>
-                                <span class="skills__percentage">75%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">JAVASCRIPT</span>
-                            </div>
-                            <div class="skills__bar skills__js"></div>
-                            <div>
-                                <span class="skills__percentage">65%</span>
-                            </div>
-                        </div>
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-bootstrap skills__icon'></i>
-                                <span class="skills__name">BOOTSTRAP</span>
-                            </div>
-                            <div class="skills__bar skills__bootstrap"></div>
-                            <div>
-                                <span class="skills__percentage">85%</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div>              
-                        <img src="assets/img/work3.jpg" alt="Skills" class="skills__img">
-                    </div>
-                </div>
-            </section>
-
-            <!--===== ACHIEVEMENTS =====-->
-            <section class="achivement section" id="achivement">
-                <h2 class="section-title">Achievements</h2>
-
-                <div class="achievements__container bd-grid">
-                    <div class="achhivemet-sec">
-                        <h3><span class="clr-blue">Employee Of The Year Award</span> 2024-25</h3>
-                        <div class="about__img">
-                            <img src="assets/img/arvind-2025.jpg" alt="Award 2025">
-                        </div>
-                    </div>
-                    
-                    <div class="achhivemet-sec mt-5">
-                        <h3><span class="clr-blue">Stand Out Performer Award</span> 2022-23</h3>
-                        <div class="about__img">
-                            <img src="assets/img/certificate-1.jpg" alt="Award 2023">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <a href="https://tecmint.org/" target="_blank" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="Work 1">
-                    </a>
-                    <a href="https://www.drjyotiupadhyay.com/" target="_blank" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="Work 2">
-                    </a>
-                    <a href="https://bbcacademy.in/" target="_blank" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="Work 3">
-                    </a>
-                </div>
-            </section>
-
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-
-                <div class="contact__container bd-grid">
-                    <form action="#" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="contact__input"></textarea>
-                        <input type="submit" value="Enter" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title">Arvind</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
-            </div>
-            <p class="footer__copy">&#169; Arvind. 2025 All rights reserved.</p>
-        </footer>
-
-        <!-- WhatsApp Widget -->
-        <div class="whatsappWidget">
-            <a href="https://api.whatsapp.com/send?phone=916203354037&text=Hello%20Arvind,%20I%20saw%20your%20portfolio%20and%20I'd%20like%20to%20talk." target="_blank">
-                <img src="assets/img/whatsapp-icon.png" alt="WhatsApp">
-            </a>
-        </div>
-
-        <!-- Modal -->
-        <div class="modal fade" id="modal-container" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content pop-up">
-                    <div class="profile-card">
-                        <div class="pro-header">
-                            <a href="#"><img src="assets/img/profile-img.jpg" alt="Arvind"></a>
-                            <h1>Arvind Kumar Sharma</h1>
-                            <h2>Web Developer</h2>
-                        </div>
-                        <div class="profile-bio">
-                            <p>As a Front-End Developer, I am driven by a deep passion for UI effects, animations, and the creation of intuitive, dynamic user experiences.</p>
-                        </div>
-                        <ul class="profile-social-links">
-                            <li><a href="https://www.linkedin.com/in/arvind-sharma-10a9091b2/" target="_blank"><img src="assets/img/linkedin.png"></a></li>
-                            <li><a href="https://www.instagram.com/arvind_sharma_95/" target="_blank"><img src="assets/img/instagram.png"></a></li>
-                            <li><a href="https://github.com/Arvind-95" target="_blank"><img src="assets/img/github.png"></a></li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
+    </div>
 
-        <!-- Scripts -->
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 
-        <!-- Tawk.to Script -->
-        <script type="text/javascript">
-            var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-            (function(){
-            var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-            s1.async=true;
-            s1.src='https://embed.tawk.to/626983917b967b11798cd35a/1g1m2jt66';
-            s1.charset='UTF-8';
-            s1.setAttribute('crossorigin','*');
-            s0.parentNode.insertBefore(s1,s0);
-            })();
-        </script>
-    </body>
+    <!-- Tawk.to Script -->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/626983917b967b11798cd35a/1g1m2jt66';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+</body>
+
 </html>

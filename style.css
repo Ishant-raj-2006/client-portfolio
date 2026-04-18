@@ -233,11 +233,18 @@ img {
   right: 0;
   bottom: 0;
   width: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-.home__img img {
-    border-radius: 30px;
-    max-width: 360px;
+
+.home__full-img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 2rem 2rem 0 0;
+  filter: drop-shadow(0 10px 20px rgba(62, 111, 244, 0.3));
 }
+
 .home__blob {
   fill: var(--first-color);
 }
