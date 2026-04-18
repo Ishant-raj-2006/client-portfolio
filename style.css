@@ -1,5 +1,6 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -36,7 +37,9 @@
 }
 
 /*===== BASE =====*/
-*, ::before, ::after {
+*,
+::before,
+::after {
   box-sizing: border-box;
 }
 
@@ -51,13 +54,15 @@ body {
   color: var(--second-color);
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 0;
-  font-weight:700;
+  font-weight: 700;
 }
-p{
+
+p {
   margin: 0;
-  font-weight:600;
+  font-weight: 600;
 }
 
 ul {
@@ -266,7 +271,11 @@ img {
   border-radius: .5rem;
   transition: .3s;
 }
-.contact-btn{margin-right:15px;}
+
+.contact-btn {
+  margin-right: 15px;
+}
+
 .button:hover {
   box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
 }
@@ -275,7 +284,7 @@ img {
 .about__container {
   row-gap: 2rem;
   text-align: center;
-  gap:15px;
+  gap: 15px;
 }
 
 .about__subtitle {
@@ -338,38 +347,103 @@ img {
   z-index: var(--z-back);
 }
 
-.skills__html { width: 80%; }
-.skills__css { width: 75%; }
-.skills__js { width: 65%; }
-.skills__bootstrap { width: 85%; }
-.skills__img { border-radius: .5rem; }
-.skills__photoshop { width: 60%; }
-.skills__wordpress { width: 60%; }
-.skills__react { width: 60%; }
-.skills__angular { width: 60%; }
-.skills__php { width: 55%; }
-.skills__ui { width: 70%; }
+.skills__html {
+  width: 80%;
+}
+
+.skills__css {
+  width: 75%;
+}
+
+.skills__js {
+  width: 65%;
+}
+
+.skills__bootstrap {
+  width: 85%;
+}
+
+.skills__img {
+  border-radius: .5rem;
+}
+
+.skills__photoshop {
+  width: 60%;
+}
+
+.skills__wordpress {
+  width: 60%;
+}
+
+.skills__react {
+  width: 60%;
+}
+
+.skills__angular {
+  width: 60%;
+}
+
+.skills__php {
+  width: 55%;
+}
+
+.skills__ui {
+  width: 70%;
+}
 
 /* ===== Education =====*/
-.sec-pd { padding: 20px; }
-.edu__container { row-gap: 2rem; padding: 15px; transition: .5s; }
-.logo-center { display: flex; align-items: center; justify-content: center; }
+.sec-pd {
+  padding: 20px;
+}
+
+.edu__container {
+  row-gap: 2rem;
+  padding: 15px;
+  transition: .5s;
+}
+
+.logo-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .edu__container .row.sec-pd.border {
   background: #fbfbfb;
   border: 1px solid #3e6ff4 !important;
   border-radius: 10px;
 }
-.edu__container h3 { font-size: 24px; font-weight: 600; }
-.edu__container h4 { font-size: 16px; font-weight: 600; color:#3e6ff4; }
+
+.edu__container h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.edu__container h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #3e6ff4;
+}
 
 /* ===== Achievements =====*/
-.achievements__container { max-width:1400px; margin:0 auto; }
+.achievements__container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .achievements__container .about__img img {
   width: 995px;
   max-width: 100%;
 }
-.achhivemet-sec h3 { margin-bottom:20px !important; }
-.clr-blue { color:#3e6ff4; }
+
+.achhivemet-sec h3 {
+  margin-bottom: 20px !important;
+}
+
+.clr-blue {
+  color: #3e6ff4;
+}
+
 .achievements__container .about__img img {
   border: solid 2px;
   border-bottom-color: #ffe;
@@ -401,13 +475,23 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
-  margin-top:2rem;
+  margin-top: 2rem;
 }
-.work__img img { transition: 1s; }
-.work__img img:hover { transform: scale(1.1); }
+
+.work__img img {
+  transition: 1s;
+}
+
+.work__img img:hover {
+  transform: scale(1.1);
+}
 
 /* ===== CONTACT =====*/
-section#contact { max-width: 700px; margin: 0 auto; }
+section#contact {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 .contact__input {
   width: 100%;
   font-size: var(--normal-font-size);
@@ -418,6 +502,7 @@ section#contact { max-width: 700px; margin: 0 auto; }
   outline: none;
   margin-bottom: var(--mb-4);
 }
+
 .contact__button {
   display: block;
   border: none;
@@ -428,9 +513,25 @@ section#contact { max-width: 700px; margin: 0 auto; }
 }
 
 /* ====POP UP section and whats app==== */
-.modal { text-align: center; height: auto; padding: 0 !important; }
-.modal:before { content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -4px; }
-.modal-dialog { display: inline-block; text-align: left; vertical-align: middle; }
+.modal {
+  text-align: center;
+  height: auto;
+  padding: 0 !important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
 
 .whats-app {
   position: fixed;
@@ -447,7 +548,10 @@ section#contact { max-width: 700px; margin: 0 auto; }
   left: 15px;
   z-index: 100;
 }
-.whats-app i { margin-top:12px; }
+
+.whats-app i {
+  margin-top: 12px;
+}
 
 /* ===== FOOTER =====*/
 .footer {
@@ -457,51 +561,122 @@ section#contact { max-width: 700px; margin: 0 auto; }
   font-weight: var(--font-semi);
   padding: 2rem 0;
 }
-.footer__title { font-size: 2rem; margin-bottom: var(--mb-4); }
-.footer__social { margin-bottom: var(--mb-4); }
-.footer__icon { font-size: 1.5rem; color: #fff; margin: 0 var(--mb-2); }
-.footer__copy { font-size: var(--smaller-font-size); }
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 var(--mb-2);
+}
+
+.footer__copy {
+  font-size: var(--smaller-font-size);
+}
 
 /* WhatsApp Widget */
 .whatsappWidget {
-	position: fixed;
-	left: 30px;
-	bottom: 15px;
-	z-index: 101;
-	animation: shadow-pulse 1.5s infinite;
-	transition: all 0.4s ease-in-out;
-	background-color: #29A71A;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
+  position: fixed;
+  left: 30px;
+  bottom: 15px;
+  z-index: 101;
+  animation: shadow-pulse 1.5s infinite;
+  transition: all 0.4s ease-in-out;
+  background-color: #29A71A;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
 }
-.whatsappWidget a img { max-width: 60px; height: 60px; }
+
+.whatsappWidget a img {
+  max-width: 60px;
+  height: 60px;
+}
+
 @keyframes shadow-pulse {
-	0% { box-shadow: 0 0 0 0px rgba(41, 167, 26, 0.5); }
-	100% { box-shadow: 0 0 0 20px rgba(0 0 0 / 0%); }
+  0% {
+    box-shadow: 0 0 0 0px rgba(41, 167, 26, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 20px rgba(0 0 0 / 0%);
+  }
 }
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 576px) {
-  .home__social { flex-direction: row; align-self: flex-end; }
-  .home__social-icon { margin-right: var(--mb-4); }
-  .about__container { grid-template-columns: repeat(2, 1fr); text-align: initial; }
-  .skills__container { grid-template-columns: .7fr; justify-content: center; }
-  .work__container { grid-template-columns: repeat(2, 1fr); column-gap: 2rem; }
-  .contact__form { width: 700px; }
+  .home__social {
+    flex-direction: row;
+    align-self: flex-end;
+  }
+
+  .home__social-icon {
+    margin-right: var(--mb-4);
+  }
+
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: initial;
+  }
+
+  .skills__container {
+    grid-template-columns: .7fr;
+    justify-content: center;
+  }
+
+  .work__container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+
+  .contact__form {
+    width: 700px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  body { margin: 0; }
-  .nav { height: calc(var(--header-height) + 1.5rem); }
-  .nav__list { display: flex; }
-  .nav__item { margin-left: var(--mb-4); }
-  .nav__toggle { display: none; }
-  .nav__link { color: var(--second-color); }
-  .skills__container { grid-template-columns: repeat(2, 1fr); }
-  .work__container { grid-template-columns: repeat(3, 1fr); }
+  body {
+    margin: 0;
+  }
+
+  .nav {
+    height: calc(var(--header-height) + 1.5rem);
+  }
+
+  .nav__list {
+    display: flex;
+  }
+
+  .nav__item {
+    margin-left: var(--mb-4);
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+
+  .nav__link {
+    color: var(--second-color);
+  }
+
+  .skills__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .work__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (min-width: 992px) {
-  .home__img { width: 450px; }
+  .home__img {
+    width: 450px;
+  }
 }
